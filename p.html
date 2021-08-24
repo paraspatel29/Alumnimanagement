@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("7.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("pp.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("1.jpg");
+  min-height: 500px;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="flip.html">About Us</a>
+  <a href="newlog.html">Login</a>
+  <a href="sign.html">Signup</a>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border" color="red">ALUMNI MANAGEMENT SYSTEM</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">HOW IT'S HELPFUL?</h3>
+  <p>The aim of this project is to build a system that will be able to manage alumni data of a college and provide easy access to the same. Alumni of a college generally stay in touch with their immediate friends but find it hard to stay connected with other college mates. Contact between alumni can be used to forge business connections and to gain references or insight in a new field.
+New college students will be initially given a student login ID. Access to the system can help them in building connections to help them in their projects or for placements.
+The system will automatically list all college students as alumni on their graduation and their account status will be transferred from the student module to the alumni module. Users will be prompted to update social network details such as their Facebook, LinkedIn and Twitter handles. Users can also choose to automatically share new updates in work status from their LinkedIn profile. Users will also be able to share and promote their business Facebook pages or Twitter handles through the system.
+This single system will be able to bypass the requirement of any other Alumni organization. The system can track user location as given by the user. Once the system notices that more than 10 alumni are available in the same city it can notify all of them about the possibility of a meet.
+Alumni will also be able to provide public posts on the system about possible job opportunities or other college related news. Since it is unlikely that alumni will check the system frequently the system will be able collate all public posts and create a newsletter that can be emailed to all alumni
+<h3 style="text-align:center;">WHO CAN USE IT?</h3>
+</p>
+<p>Admin: The admin will be responsible for creating new login ID's for incoming students. The admin will also have to ensure that graduating students are shifted into the alumni module. The admin will also have to browse the site to ensure no objectionable content is posted. The admin will also be notified about any complaints from users.</p>
+
+<p>Student: The student module can be used to browse through the site and access alumni information. The students will be able to chat via the system with the alumni, if the alumni wishes to share e - mail and mobile number this can be done through the chat. The student will have to seek admin approval before posting anything on the site.</p>
+
+<p>Alumni: An alumnus of the college will be able to access other alumni information and also will be able to view all their contact information (unless it is made private). An alumnus can post any information they deem relevant on the site.</p>
+
+</div>
+
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;color:red;">EXISTING MODEL</h3>
+  <p>The existing system is built with innumerable excel sheets that are created by each user. These sheets may be collated by an alumni organization and shared with all the alumni but this activity may not be frequent. E - Mail ID's may be freely shared and can lead to excessive spam mails. This apparent lack of privacy will force many alumni to avoid sharing their details with fellow alumni. The system is difficult to maintain on a regular basis by a small group of students</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:35px;color:red;"> </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;color:red;">PROPOSED MODEL</h3>
+<p>The proposed system will be on-line so it can be accessed by alumni anywhere. It will enable quick and easy communication. Each user will be responsible for the updating their own information. Each user will also have the option to maintain their privacy. It does not require the constant attention of a group of students for its maintenance. Alumni will be able to organize meetings and find out about job opportunities on themselves using this system.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">GET IN TOUCH WITH ALUMNI </span>
+  </div>
+</div>
+
+</body>
+</html>

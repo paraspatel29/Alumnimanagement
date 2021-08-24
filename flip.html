@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column1 {
+  float: center;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <h2 align="left">An organization’s alumni are the reflection of its past, representation of its present and a link to its future.</h2>
+  <p align="left">We are the Students of Information Technology from Vardhaman College Of Engineering have created this
+	Website as Alumni can play an active role in voluntary programs like mentoring students in their 
+	areas of expertise. They also play a significant role in contributing scholarships to deserving students.
+	Alumni get in touch with students and share their expertise and best practices in a given field.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="paras.jpg" alt="PARAS" style="width:100%">
+      <div class="container">
+        <h2>PARAS PATEL</h2>
+        <p class="title"></p>
+        <p></p>
+        <p>paraspatelgopani29@gmail.com</p>
+	<p>phone:- 7416843040</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="nazeer" style="width:100%">
+      <div class="container">
+        <h2>NAZEER AHAMED ABDUL</h2>
+        <p class="title"></p>
+        <p>nazzerabdul28@gmail.com</p>
+        <p>phone:-9989127302</p>
+	<p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="vijay" style="width:100%">
+      <div class="container">
+        <h2>E.VIJAY KUMAR</h2>
+        <p class="title"></p>
+	<p>vijaykumare902@gmail.com</p>
+        <p>phone:-9659052642</p>
+	<p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="column1">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="vijender" style="width:100%">
+      <div class="container">
+        <h2>P.VEERENDER KUMAR</h2>
+        <p class="title"></p>
+        <p>veerender2345@gmail.com</p>
+	<p>phone:-9959052642</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+
+</body>
+</html>
